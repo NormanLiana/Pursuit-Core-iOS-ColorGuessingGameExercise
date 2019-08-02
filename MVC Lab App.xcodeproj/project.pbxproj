@@ -76,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A51E4F0A22F243C200C48DC0 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A59CC63722F0D165004910DC /* Assets.xcassets */,
+				A59CC63022F0D164004910DC /* AppDelegate.swift */,
+				A59CC63922F0D165004910DC /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		A59CC62422F0D164004910DC = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +109,10 @@
 		A59CC62F22F0D164004910DC /* MVC Lab App */ = {
 			isa = PBXGroup;
 			children = (
-				A59CC63022F0D164004910DC /* AppDelegate.swift */,
 				A59CC63222F0D164004910DC /* ViewController.swift */,
 				A59CC63422F0D164004910DC /* Main.storyboard */,
 				A51E4F0822F0E99D00C48DC0 /* RandomColor.swift */,
-				A59CC63722F0D165004910DC /* Assets.xcassets */,
-				A59CC63922F0D165004910DC /* LaunchScreen.storyboard */,
+				A51E4F0A22F243C200C48DC0 /* SupportFiles */,
 				A59CC63C22F0D165004910DC /* Info.plist */,
 			);
 			path = "MVC Lab App";
